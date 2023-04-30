@@ -1,0 +1,29 @@
+.info {
+  display: grid;
+  grid-template-columns: 340px 340px 340px;
+  gap: 10px;
+  background-color: var(--light-green);
+  font-size: 12px;
+  padding: 16px;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+}
+.info span a {
+  text-decoration: none;
+  color: var(--green-p);
+  font-weight: 700;
+}
+.border-left-right {
+  border-left: 1px solid var(--border-solid);
+  border-right: 1px solid var(--border-solid);
+  padding: 0px 26px;
+}
+.info span {
+  display: grid;
+  gap: 20px;
+  height: 27px;
+}
+.info{
+  background-color: var(--light-green);
+}

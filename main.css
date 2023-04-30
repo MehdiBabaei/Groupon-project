@@ -1,0 +1,19 @@
+.head-title-sub {
+  display: grid;
+  grid-template-columns: 1fr 1200px 1fr;
+  padding: 16px 24px 0px;
+  font-size: 24px;
+  width: 100%;
+  justify-items: start;
+}
+.title {
+  display: grid;
+  grid-template-columns: 110px 320px;
+}
+.head-title {
+  width: 500px;
+  font-weight: 800;
+}
+.pull-pagination{
+  height: 165px;
+}

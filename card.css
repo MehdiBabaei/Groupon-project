@@ -1,0 +1,47 @@
+.spicial-card {
+  position: relative;
+  display: grid;
+  min-width: 1270px;
+  grid-template-columns: 600px 600px;
+  justify-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.small-featured-image img {
+  width: 600px;
+  height: 240px;
+}
+.caption {
+  display: grid;
+  gap: 20px;
+  position: absolute;
+  top: 0;
+  padding: 35px;
+}
+.title-caption {
+  font-size: 32px;
+  font-weight: 900;
+  color: var(--black-hidden);
+}
+.title-caption-white {
+  font-size: 32px;
+  font-weight: 900;
+  width:520px;
+  line-height:33px;
+  color: var(--white);
+}
+
+.discription {
+  font-size: 13px;
+  width: 160px;
+  color: var(--black-hidden);
+}
+.discription-white {
+  font-size: 13px;
+  margin-top:15px;
+  width: 160px;
+  color: var(--white);
+}

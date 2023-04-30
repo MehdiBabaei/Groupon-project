@@ -1,0 +1,42 @@
+.shopping-card {
+  border-radius: 5px;
+  padding: 5px;
+  z-index: 5;
+}
+.shopping-card:hover {
+  background-color: #342341;
+}
+.shopping-card a:hover + .empty-card {
+  display: block;
+}
+.empty-card {
+  display: none;
+  position: absolute;
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 7px;
+  width: 470px;
+  right: 0;
+  padding: 16px 24px;
+  margin-top: 15px;
+  height: 130px;
+}
+.empty-card p {
+  font-size: 14px;
+  color: var(--black-hedden);
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+.empty-card div {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.empty-card p a {
+  text-decoration: none;
+  color: var(--blue-p);
+}
+.shopping-card svg {
+  width: 32px;
+  height: 32px;
+}

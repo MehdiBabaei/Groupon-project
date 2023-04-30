@@ -1,0 +1,38 @@
+.btn button {
+  background-color: inherit;
+  color: var(--white);
+  border: 1px solid var(--white);
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn1 button {
+  background-color: inherit;
+  color: var(--black-hidden);
+  border: 1px solid var(--black-hidden);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn button:hover {
+  text-decoration: underline;
+}
+.second-half-form .sign-in-accuont,
+.sign-in-accuont {
+  border: 1px solid #0077d9;
+  border-radius: 6px;
+  width: 100%;
+  padding: 10px 0px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #005eab;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.second-half-form .sign-in-accuont:hover,
+.sign-in-accuont:hover {
+  background-color: var(--background-link);
+  color: var(--white);
+  transition-duration: 200ms;
+}

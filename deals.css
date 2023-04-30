@@ -1,0 +1,8 @@
+.deals {
+  display: grid;
+  grid-template-columns: 282px 282px 282px 282px;
+  justify-content: center;
+  margin-top: 10px;
+  min-width: 1270px;
+  gap: 25px;
+}

@@ -1,0 +1,75 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 100px));
+  justify-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 15px 0px;
+}
+.img-heder-offer,
+.img-heder-offer-mothers-day {
+  width: 100%;
+  display: grid;
+}
+.img-heder-offer a,
+.img-heder-offer-mothers-day a {
+  text-decoration: none;
+}
+.img-heder-offer-mothers-day img {
+  width: 282px;
+  height: 170px;
+  border-radius: 5px;
+}
+.img-heder-offer img {
+  width: 384px;
+  height: 232px;
+  border-radius: 5px;
+}
+.img-heder-offer img:hover {
+  transition-duration: 300ms;
+}
+.title-one {
+  color: var(--black-hidden);
+  font-size: 16px;
+  font-weight: 700;
+}
+.title-two,
+.last-title {
+  color: var(--black-hidden);
+  font-size: 14px;
+}
+.rating {
+  display: grid;
+  grid-template-columns: 25px 100px 120px;
+}
+.rating span {
+  font-size: 14px;
+  color: var(--black-hidden);
+}
+.price {
+  display: grid;
+  grid-template-columns: 50px 40px 200px;
+  font-size: 21px;
+}
+.spicial-off {
+  color: var(--red-color);
+  font-size: 21px;
+  font-weight: 700;
+}
+.End-Tomorrow {
+  font-size: 14px;
+  font-weight: 500;
+}
+.off-percent span {
+  color: var(--green-price-offer);
+  background-color: var(--light-green);
+  font-size: 12px;
+  font-weight: 700;
+}
+.Real-price {
+  color: var(--price-color);
+}
+.after-off {
+  color: var(--green-price-offer);
+  font-weight: 700;
+}

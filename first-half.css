@@ -1,0 +1,107 @@
+.navbar {
+  display: grid;
+  justify-items: center;
+  background-color: var(--nav-footer-color);
+  height: 227px;
+}
+.first-half {
+  display: grid;
+  justify-items: end;
+  align-items: center;
+  gap: 20px;
+  min-width: 10px;
+  grid-template-columns: 1fr 150px 85px 100px 27px 45px;
+  padding: 8px 32px 0px;
+}
+.first-half button {
+  display: grid;
+  justify-items: end;
+  background-color: inherit;
+  color: var(--white);
+  border: unset;
+  cursor: pointer;
+  font-size: 12px;
+}
+.first-half button:hover {
+  text-decoration: underline;
+}
+.first-half a {
+  display: grid;
+  justify-items: end;
+  text-decoration: none;
+  color: var(--white);
+  font-size: 12px;
+}
+.first-half a:hover {
+  text-decoration: underline;
+}
+.first-half svg {
+  fill: var(--white);
+  width: 17px;
+}
+.first-half .herat-svg {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  align-items: center;
+  justify-items: left;
+}
+.first-half .qr-svg {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  align-items: center;
+  justify-items: left;
+}
+.qr button:focus + .qr-img {
+  display: block;
+}
+.qr-img {
+  position: absolute;
+  display: none;
+  z-index: 10;
+  margin-top: 20px;
+  right: 0;
+}
+.qr-img img {
+  width: 236px;
+}
+.qr {
+  position: relative;
+}
+.qr-img .qr-img-detailes {
+  border: 0px solid var(--white);
+  background-color: var(--white);
+  border-radius: 5px;
+  padding: 20px;
+}
+.qr-img .qr-img-detailes .hidden-text {
+  display: grid;
+  text-align: center;
+  font-size: 14px;
+  margin: 12px 0px 24px;
+}
+.qr-img .qr-img-detailes a {
+  display: block;
+  text-align: center;
+  background-color: var(--background-link);
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+.qr-img .qr-img-detailes .border {
+  border-bottom: 1px solid var(--border-solid);
+}
+@media screen and (max-width: 1155px) {
+  .navbar,
+  .info,
+  .head-title-sub {
+    width: 1095px;
+  }
+}
+@media screen and (max-width: 1260px) {
+  .header,
+  .footer {
+    min-width: 1250px;
+  }
+}

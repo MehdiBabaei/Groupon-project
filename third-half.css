@@ -1,0 +1,73 @@
+.third-half {
+  display: grid;
+  position: relative;
+  justify-items: center;
+  align-items: center;
+  width: 720px;
+  gap: 10px;
+}
+
+.location button {
+  color: var(--white);
+  font-weight: 900;
+  font-size: 32px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+.location button:hover {
+  text-decoration: underline;
+}
+.location svg {
+  fill: var(--white);
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+}
+.location-details {
+  position: absolute;
+  display: grid;
+  display: none;
+  background-color: var(--white);
+  border-radius: 6px;
+  height: 100px;
+  margin-top: 14px;
+  left: 0;
+  right: 0;
+  gap: 7px;
+}
+.location-details input {
+  width: 100%;
+  margin: 12px 0px;
+  background-color: var(--white);
+  padding: 12px 0px;
+  border: 1px solid var(--white);
+  border-radius: 30px;
+}
+.location-details svg {
+  fill: var(--background-link);
+  width: 16px;
+  height: 16px;
+  margin-left: 24px;
+}
+.location-details a span,
+.location-details a {
+  display: grid;
+  grid-template-columns: 50px 200px;
+  align-items: center;
+  color: var(--background-link);
+  font-size: 14px;
+  text-decoration: none;
+}
+.location button:focus + .location-details {
+  display: block;
+}
+.search-hidden {
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  align-items: center;
+  gap: 10px;
+}
+.search-hidden svg {
+  fill: var(--gray-p);
+}

@@ -1,0 +1,21 @@
+.third-half input.search {
+  width: 100%;
+  background-color: var(--white);
+  padding: 12px 20px;
+  border: 1px solid var(--white);
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+.email input,
+.password input {
+  width: 100%;
+  background-color: var(--white);
+  padding: 12px 20px;
+  border: 1px solid var(--border-solid);
+  border-radius: 6px;
+  margin: 10px 0px 10px;
+}
+.email input:hover,
+.password input:focus {
+  border: 1px solid var(--blue-p);
+}

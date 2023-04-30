@@ -1,0 +1,29 @@
+.second-half {
+  display: grid;
+  grid-template-columns: 150px 170px 1fr;
+  justify-items: end;
+  align-items: center;
+  padding-right:32px ;
+}
+.second-half svg {
+  fill: var(--white);
+  display: grid;
+}
+.second-half .categories .categories-list button,
+.second-half .right-side .sign-in button {
+  display: grid;
+  grid-template-columns: 1fr 13px;
+  gap: 10px;
+}
+.right-side {
+  position: relative;
+  display: grid;
+  grid-template-columns: 30px 30px 100px;
+  gap: 10px;
+  justify-items: end;
+  align-items: normal;
+}
+.categories {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}

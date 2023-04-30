@@ -1,0 +1,94 @@
+.form-sign-in {
+  display: grid;
+  grid-template-columns: 210px 350px;
+  position: absolute;
+  background-color: var(--white);
+  margin-top: 16px;
+  right: 0;
+  display: none;
+  border-radius: 7px;
+  width: 555px;
+  height: 390px;
+  z-index: 10;
+}
+.button:focus + .form-sign-in {
+  display: grid;
+}
+.first-half-form {
+  padding: 24px 0px;
+  display: grid;
+  border-right: 1px solid var(--border-solid);
+  color: var(--black-hidden);
+  height: 350px;
+}
+.first-half-form svg {
+  fill: var(--black-hidden);
+  width: 20px;
+  height: 20px;
+}
+.first-half-form a {
+  color: var(--black-hidden);
+  font-size: 14px;
+}
+.first-half-form a span:hover {
+  text-decoration: underline;
+}
+.first-half-form span {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+}
+.first-half-form a {
+  text-decoration: none;
+  padding: 0px 24px;
+}
+.my-wishlist {
+  border-bottom: 1px solid #e4e4e6;
+  padding-bottom: 20px;
+}
+.second-half-form {
+  padding: 24px;
+  justify-items: center;
+  font-size: 14px;
+  max-width: 400px;
+}
+.second-half-form-details {
+  display: grid;
+}
+.second-half-form-details p {
+  text-align: center;
+  font-size: 12px;
+}
+.second-half-form a {
+  text-decoration: none;
+  border: 1px solid var(--border-solid);
+  padding: 8px 8px;
+}
+.checkbox-forget {
+  display: grid;
+  grid-template-columns: 105px 1fr;
+  justify-items: end;
+  align-items: center;
+  font-size: 12px;
+}
+.checkbox-forget a {
+  border: none;
+  color: var(--blue-p);
+}
+.social-login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  margin-top: 10px;
+  text-align: center;
+  color: var(--black-hidden);
+}
+.social-login a {
+  color: var(--black-hidden);
+  font-weight: 600;
+  border-radius: 6px;
+}
+.social-login a:hover {
+  transition-duration: 400ms;
+  border: 1px solid var(--black-hidden);
+}
